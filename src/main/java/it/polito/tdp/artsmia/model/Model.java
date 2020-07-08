@@ -47,7 +47,6 @@ public class Model {
 				Graphs.addEdge(this.grafo, this.idMap.get(a.getObj1()), this.idMap.get(a.getObj2()),a.getPeso());
 			}
 		}
-		System.out.println(String.format("Grafo creato! Ha %d vertici e %d archi", this.grafo.vertexSet().size(),this.grafo.edgeSet().size()));
 		}
 		
 		public int nVertici() {
